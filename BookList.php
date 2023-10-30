@@ -48,7 +48,7 @@
 
         <table class="table table-striped">
             <thead>
-                <tr>&nbsp&nbsp
+                <tr>
                     <th scope="col"><span>Book ID</span></th>
                     <th scope="col">Book Name</th>
                     <th scope="col">Book Author</th>
