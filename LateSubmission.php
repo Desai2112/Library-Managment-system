@@ -55,10 +55,7 @@
             <tbody id='tableBody'>
                 <?php
                 include('connect2.php');
-                // session_start();'
                 $crr = date("Y-m-d");
-
-                // Use placeholders and prepared statements to prevent SQL injection
                 $sql = "SELECT RName, BName, Id, AName, BookType FROM Book_Issue 
                         WHERE RtDate < ?";
                 $stmt = $con2->prepare($sql);
@@ -73,8 +70,6 @@
                 } else {
                     echo "<h1> No Late Submission is remaining</h1>";
                 }
-
-                // Close prepared statement and database connection
                 $stmt->close();
                 $con2->close();
                 ?>

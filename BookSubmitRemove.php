@@ -8,7 +8,7 @@ if ($_POST) {
     $Bid = $_POST['Bid'];
 
 
-    $sql = "DELETE FROM Book_Issue WHERE '$Bid'=Id AND '$Rname'=RName;";
+    $sql = "DELETE FROM Book_Issue WHERE '$Bid'=Id AND '$Rname'=RName AND '$Bname'=BName;";
     
     $res=mysqli_query($con2,$sql);
 
@@ -17,7 +17,7 @@ if ($_POST) {
         header("Location: http://localhost/SGP/BookSubmit.php");
     }
     else{
-        echo "Eroor:  $sql <br> $con-->error";
+        echo "Eror:  $sql <br> $con-->error";
     }
 }
 

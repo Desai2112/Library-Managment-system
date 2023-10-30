@@ -69,15 +69,15 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label for="Author" class="col-sm-2 col-form-label">Author</label>
+                <label for="Author" class="col-sm-2 col-form-label" required>Author</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="author" name="Aname" placeholder="Author">
+                    <input type="text" class="form-control" id="author" name="Aname" placeholder="Author" required>
                 </div>
             </div>
             <div class="form-group row">
-                <label for="BookType" class="col-sm-2 col-form-label">Book Type</label>
+                <label for="BookType" class="col-sm-2 col-form-label" required>Book Type</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="booktype" name="Btype" placeholder="BookType">
+                    <input type="text" class="form-control" id="booktype" name="Btype" placeholder="BookType" required>
                 </div>
             </div>
             
