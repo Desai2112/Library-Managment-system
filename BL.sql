@@ -24,4 +24,5 @@ values
 (402,"Surgical Talk","Andrew Goldberg","Study Of Medical"),
 (403,"Emerging Medical Technology","Gennady Ermark","Study Of Medical");
 
+
 SELECT Book_Id,Book_Name,Author_Name,Category FROM Book_List;
