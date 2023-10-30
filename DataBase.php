@@ -16,6 +16,9 @@
             margin-left: 44%;
             padding: 1rem;
         }
+        h3{
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -67,7 +70,7 @@
             }
             echo "</table>";
         } else {
-            echo "0 result";
+            echo "<h3>Currently no members are there in the Database.</h3>";
         }
         $con->close();
         ?>
